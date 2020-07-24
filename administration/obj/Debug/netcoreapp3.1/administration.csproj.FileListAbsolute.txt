@@ -1,0 +1,22 @@
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.csprojAssemblyReference.cache
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration_MarkupCompile.cache
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration_MarkupCompile.lref
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.exe
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.deps.json
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.runtimeconfig.json
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.runtimeconfig.dev.json
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.dll
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\administration.pdb
+C:\Users\villi\source\repos\administration\administration\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.g.resources
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.csproj.CoreCompileInputs.cache
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.AssemblyInfoInputs.cache
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.AssemblyInfo.cs
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.csproj.CopyComplete
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.dll
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.pdb
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\administration.genruntimeconfig.cache
+C:\Users\villi\source\repos\administration\administration\obj\Debug\netcoreapp3.1\MainWindow 3.g.cs

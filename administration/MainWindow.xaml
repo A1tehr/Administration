@@ -1,0 +1,62 @@
+﻿<Window x:Class="administration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:administration"
+        mc:Ignorable="d"
+        Title="Админская панель" Height="632" Width="1200" ResizeMode="NoResize"
+        WindowStyle="None" Background="Transparent" AllowsTransparency="True">
+    <Grid>
+        <Border Width="auto" Height="auto" BorderBrush="LimeGreen" BorderThickness="2"
+                CornerRadius="0,30,0,30" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#e7ebf7" Offset="0.0"></GradientStop>
+                            <GradientStop Color="#cee3ff" Offset="0.5"></GradientStop>
+                        </GradientStopCollection>
+                    </GradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition Width="500"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <DockPanel Grid.Column="0">
+
+                    <TextBlock x:Name="LabelLogin" Text="Логин" HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="30" FontSize="18" DockPanel.Dock="Top"/>
+                    <TextBox x:Name="InputLogin" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="30" FontSize="18" DockPanel.Dock="Top"/>
+                    <TextBlock x:Name="LabelPassword" Text="Пароль" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="30" FontSize="18" DockPanel.Dock="Top"/>
+                    <PasswordBox x:Name="InputPassword" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="165" Height="30" FontSize="18"  DockPanel.Dock="Top"/>
+                    <Button Click="ButtonRegister_Click" Content="Зарегистрировать" FontWeight="Normal" FontFamily="Segoe UI Light" Foreground="Black" FontSize="18" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="35" Width="165" DockPanel.Dock="Top"/>
+                </DockPanel>
+
+                <DockPanel Grid.Column="1">
+                    <TextBox x:Name="UserListSearching" HorizontalAlignment="Left" Margin="10,90,0,0" Text="Searching" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="30" FontSize="18" DockPanel.Dock="Top" GotFocus="UserListSearching_GotFocus" LostFocus="UserListSearching_LostFocus"/>
+                    <ComboBox x:Name="UsersList" Margin="10,25,0,0" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Height="30" DockPanel.Dock="Top"/>
+                    <Button x:Name="RefreshUserList" Click="Refresh_Users" FontWeight="Normal" FontFamily="Segoe UI Light" Foreground="Black" FontSize="18" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Height="35" Width="165" Content="Обновить" DockPanel.Dock="Top" RenderTransformOrigin="0.487,0.989"/>
+                </DockPanel>
+
+                <DockPanel Grid.Column="2">
+                    <DataGrid Width="400" Height="400" Margin="50,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" DockPanel.Dock="Top"/>
+                    <Button FontWeight="Normal" FontFamily="Segoe UI Light" Foreground="Black" FontSize="18" HorizontalAlignment="Left" Margin="50,40,0,0" VerticalAlignment="Top" Height="35" Width="165" Content="Обновить таблицу" DockPanel.Dock="Left"></Button>
+                    <Button FontWeight="Normal" FontFamily="Segoe UI Light" Foreground="Black" FontSize="18" HorizontalAlignment="Left" Margin="70,40,0,0" VerticalAlignment="Top" Height="35" Width="165" Content="Обновить базу" DockPanel.Dock="Left"></Button>
+                </DockPanel>
+
+                <DockPanel Grid.Column="3">
+                    <TextBox Width="200" Height="50" Text="Смена параметров пароля?">  </TextBox>
+                </DockPanel>
+                
+            </Grid>
+        </Border>
+    </Grid>
+
+    
+    
+</Window>
