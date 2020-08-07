@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\villi\\source\\repos\\administration\\administration\\administration.csproj",
+      "projectUniqueName": "D:\\Lexus\\GitHub Projects\\Administration\\administration\\administration.csproj",
       "projectName": "administration",
-      "projectPath": "C:\\Users\\villi\\source\\repos\\administration\\administration\\administration.csproj",
+      "projectPath": "D:\\Lexus\\GitHub Projects\\Administration\\administration\\administration.csproj",
       "packagesPath": "C:\\Users\\villi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\villi\\source\\repos\\administration\\administration\\obj\\",
+      "outputPath": "D:\\Lexus\\GitHub Projects\\Administration\\administration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\villi\\AppData\\Roaming\\NuGet\\NuGet.Config",
